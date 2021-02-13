@@ -1,0 +1,109 @@
+/*Colores generales*/
+:root {
+    --red: #EB5757;
+    --primary: #6610f2;
+    --dark: #000000;
+    --grey: #f5f5f5;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+}
+
+/*Estilos para los botones del navbar*/
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar .btn {
+    padding: .625rem 1.25rem !important;
+}
+
+/*
+
+.navbar ul li a{
+    color: var(--dark);
+}
+
+.navbar li a{
+    color: var(--dark);
+}
+
+.navbar li a:hover{
+    color: var(--primary);
+}
+
+.navbar ul li a:hover{
+    color: var(--primary);
+}
+*/
+
+/*Text del nav rojo*/
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn {
+    padding: 1rem;
+}
+
+.btn-light {
+    border-radius: 50px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    border-radius: 50px;
+}
+.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+
+/*Estilos del contenedor*/
+.content {
+    max-width: 500px;
+}
+
+section {
+    height: 900px;
+}
+
+.step {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.step::after{
+    content: '';
+    border-right: 2px solid var(--primary);
+    height: 60px;
+    position: absolute;
+    top: 34px;
+    opacity: .3;
+}
+
+@media (max-width: 992px){
+    .navbar {
+        position: relative !important;
+    }
+    section{
+        height: unset;
+    }
+    .call-to-action{
+        max-width: 100%;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
