@@ -2,8 +2,11 @@
 :root {
     --red: #EB5757;
     --primary: #6610f2;
+    --primary-dark: #4f0cbb;
     --dark: #000000;
-    --grey: #f5f5f5;
+    --grey: #9c9c9c;
+    --grey-dark: #959595;
+    --color-white: #ffffff;
 }
 
 body{
@@ -17,13 +20,16 @@ body{
     min-height: 90px;
 }
 
+.navbar-nav .nav-item{
+    font-size: 17px;
+    font-weight: 400;
+}
+
 .navbar .btn {
     padding: .625rem 1.25rem !important;
 }
 
-/*
-
-.navbar ul li a{
+/* .navbar ul li a{
     color: var(--dark);
 }
 
@@ -37,8 +43,7 @@ body{
 
 .navbar ul li a:hover{
     color: var(--primary);
-}
-*/
+} */
 
 /*Text del nav rojo*/
 .text-primary {
@@ -50,16 +55,24 @@ body{
 }
 
 .btn-light {
-    border-radius: 50px;
+    border-radius: 12px;
+    background: var(--grey);
+    color: var(--color-white);
+    font-weight: 600;
+}
+.btn-light:hover{
+    background: var(--grey-dark);
+    color: var(--color-white);
 }
 
 .btn-primary {
     background-color: var(--primary);
     border-color: var(--primary);
-    border-radius: 50px;
+    border-radius: 9px;
+    font-weight: 600;
 }
 .btn-primary:hover {
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     border-color: var(--primary);
 }
 
