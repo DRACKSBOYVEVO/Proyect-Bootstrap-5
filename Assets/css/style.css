@@ -56,14 +56,15 @@ body{
 
 .btn-light {
     border-radius: 12px;
-    background: var(--grey);
-    color: var(--color-white);
+    background: var(--color-white);
+    color: var(--primary);
     font-weight: 600;
+    border-style: none;
 }
-.btn-light:hover{
-    background: var(--grey-dark);
+/* .btn-light:hover{
+    background: var(--primary-dark);
     color: var(--color-white);
-}
+} */
 
 .btn-primary {
     background-color: var(--primary);
@@ -115,6 +116,9 @@ section {
     .call-to-action{
         max-width: 100%;
     }
+    .w-75{
+        width: 100% !important;
+    }
 }
 
 .navbar-toggler:focus {
@@ -122,5 +126,23 @@ section {
 }
 
 /*=====FOOTER AREA START=====*/
+.calltoaction-form{
+    max-width: 480px;
+}
+.calltoaction-form .form-control{
+    min-height: 82px;
+}
+.calltoaction-form .btn{
+    top: 12px;
+    right: 12px;
+}
+/*Social media icons*/
+.social-media .list-inline-item a{
+    color: var(--dark);
+    font-size: 25px;
+}
+.social-media .list-inline-item a:hover{
+color: var(--primary-dark);
+}
 
 /*=====FOOTER AREA START=====*/
