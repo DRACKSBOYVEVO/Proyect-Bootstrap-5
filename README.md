@@ -1,0 +1,2 @@
+# Proyect-Bootstrap-5
+El repositorio tiene como objetivo enseñar los aspectos más importantes de Bootstrap para la creación de sitios web modernos. Contiene ejemplos prácticos y recursos útiles para aprender desde la instalación, hasta la creación de layouts y elementos de interfaz de usuario utilizando el framework. También se incluyen las mejores prácticas y recomendaciones para optimizar el rendimiento y la accesibilidad de los sitios web construidos con Bootstrap.
